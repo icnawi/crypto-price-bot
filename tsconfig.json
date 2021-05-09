@@ -1,0 +1,20 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "es5",                                
+    "module": "commonjs",                           
+    "lib": ["es2019"],                              
+    "outDir": "./bin",
+    "resolveJsonModule": true,                            
+    "strict": true,                                 
+    "noImplicitAny": true,                          
+    "strictNullChecks": true,
+    "noUnusedLocals": true,                      
+    "noUnusedParameters": true,                  
+    "esModuleInterop": true,                        
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  }
+}
